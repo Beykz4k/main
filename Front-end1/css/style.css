@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+    block-size: auto;
+}
+
+#forca{
+    margin-top: auto;
+    width: 30px;
+    height: 30px;
+}
+#destreza{
+    margin-left: -1px;
+    width: 30px;
+    height: 30px;
+}
+#agilidade{
+    margin-left: 3px;
+    width: 30px;
+    height: 30px;
+}
+#stamina{
+    margin-left: 3px;
+    width: 30px;
+    height: 30px;
+}
+#inteligencia{
+    margin-left: 6px;
+    width: 30px;
+    height: 30px;
+}
+#sabedoria{
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+}
+#carisma{
+    margin-left: -1px;
+    width: 30px;
+    height: 30px;
+}
+#constituicao{
+    margin-left: -2px;
+    width: 30px;
+    height: 30px;
+}
+#pontosDistribuir{
+    margin-top: 15px;
+}
+.caixaTexto{
+    margin-top: 15px;
+    color: #525252;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 6px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+#stts{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 1650px;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+#LvlUp{
+    margin-bottom: 20px;
+}
+
+#level{
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 167px;
+}
+
+#hpBox {
+    margin-left: 0px;
+    margin-top: -15px;
+}
+
+#hpAtual {
+    width: 35px;
+    text-align: center;
+}
+
+#hpMaximo {
+    text-align: center;
+    margin-left: -7px;
+    width: 35px;
+}
+
+#bottomStatus {
+    margin-left: 10px;
+}
+
+#mpBox {
+    margin-left: 0px;
+
+}
+
+#mp{
+    width: 35px;
+    text-align: center;
+}
+
+#mpMax{
+    width: 35px;
+    margin-left: -7px;
+    text-align: center;
+}
+
+#danoSofrido{
+    width: 35px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+#hpRecuperar{
+    width: 35px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#mpGasto{
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+#mpRecuperar{
+    width: 35px;
+    margin-top: 8px;
+    margin-left: 7px;
+    text-align: center;
+}
+
+#dmg{
+    padding-inline: 7.5px;
+}
+
+#mpChange{
+    padding-inline: 7.5px;
+}
